@@ -73,20 +73,20 @@ document.getElementById("btnTangDan").onclick = function () {
  */
 
 document.getElementById("btnUser").onclick = function () {
-    var userInput = document.getElementById("user").value;
+    var userInput = document.getElementById("userInput").value;
     var result = "";
 
     switch (userInput) {
-        case "B":
+        case "Bố":
             result = "Chào Bố!"
             break;
-        case "M":
+        case "Mẹ":
             result = "Chào Mẹ!"
             break;
-        case "A":
+        case "Anh trai":
             result = "Chào Anh trai!"
             break;
-        case "E":
+        case "Em gái":
             result = "Chào Em gái!"
             break;
     }
